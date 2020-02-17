@@ -23,7 +23,9 @@ import java.util.*;
 public class DefenseTrade {
 
   // Chromedriver path
-
+   /* static {
+        System.setProperty("webdriver.chrome.driver", "/home/obsessory/Documents/raaki/proj/soft/chromedriver_linux64/chromedriver");
+    }*/
     static List<DefenseTradeUSModel> DefenseTradeList= new ArrayList<DefenseTradeUSModel>();
     static {
         System.setProperty("webdriver.chrome.driver", "/home/obsessory/Documents/raaki/proj/soft/chromedriver_linux64/chromedriver");
