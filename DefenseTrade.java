@@ -23,11 +23,12 @@ import java.util.*;
 public class DefenseTrade {
 
   // Chromedriver path
+
+    static List<DefenseTradeUSModel> DefenseTradeList= new ArrayList<DefenseTradeUSModel>();
     static {
         System.setProperty("webdriver.chrome.driver", "/home/obsessory/Documents/raaki/proj/soft/chromedriver_linux64/chromedriver");
     }
 
-    static List<DefenseTradeUSModel> DefenseTradeList= new ArrayList<DefenseTradeUSModel>();
 
     public static void main(String[] args) throws IOException {
         String downloadPath = "/home/obsessory/Documents/KYC";
